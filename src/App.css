@@ -38,9 +38,8 @@
 }
 
 .counter {
-  position: fixed;
   top: 5%;
-  left: 50%;
+  left: 35%;
   padding: 20px;
   position: fixed;
   border: 2px solid black;
@@ -59,7 +58,7 @@
 .todos {
   position: fixed;
   top: 35%;
-  left: 50%;
+  left: 20%;
 }
 
 .todo {
