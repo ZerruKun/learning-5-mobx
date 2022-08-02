@@ -2,6 +2,7 @@ import { makeAutoObservable } from "mobx";
 
 class Counter {
   count = 0;
+  timer = 60;
   constructor() {
     makeAutoObservable(this);
   }
@@ -14,6 +15,10 @@ class Counter {
   decrement() {
     this.count = this.count - 1;
     console.log("decrement: ", this.count);
+  }
+
+  get total() {
+    return `Count + timer = ` + this.timer + this.count
   }
 }
 
