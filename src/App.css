@@ -45,12 +45,13 @@
   position: fixed;
   border: 2px solid black;
   border-radius: 10px;
+  font-size: 8vh;
 }
 
 .btn {
   font-size: 4vh;
-  width: 5vh;
-  height: 5vh;
+  width: 8vh;
+  height: 8vh;
   background-color: orange;
   border-radius: 50%;
 }
