@@ -39,7 +39,7 @@
 
 .counter {
   position: fixed;
-  top: 50%;
+  top: 5%;
   left: 50%;
   padding: 20px;
   position: fixed;
@@ -54,4 +54,14 @@
   height: 8vh;
   background-color: orange;
   border-radius: 50%;
+}
+
+.todos {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+}
+
+.todo {
+  font-size: 4vh;
 }
